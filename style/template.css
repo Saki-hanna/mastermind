@@ -1,0 +1,130 @@
+/*-----------------------------------------*/
+/* 		           HEADER                  */
+/*-----------------------------------------*/
+header
+{
+	
+}
+/*-----------------------------------------*/
+/* 		           MAIN                    */
+/*-----------------------------------------*/
+body
+{
+
+}
+
+#proposition
+{
+	 margin-top : 65px;
+}
+#proposition tr td:first-child, #proposition tr td:nth-last-child(2)
+{
+	border-radius : 0;	
+	height : 50px;
+	width : 50px;
+}
+#proposition tr td:last-child
+{
+	background-color :transparent;	
+	height : 50px;
+	width : 50px;
+}
+#proposition tr td:first-child
+{
+	background-color :transparent;	
+	height : 50px;
+	width : 50px;
+}
+td
+{
+	background-color :grey;
+	border-radius : 50%;	
+	height : 50px;
+	width : 50px;
+}
+
+#proposition tr td.indice div
+{
+	display : inline-block;
+	border-radius : 50%;
+	margin-left:3px;
+	height : 20px;
+	width : 20px;
+}
+#proposition tr td.indice div.indiceCellBlack
+{
+	background-color :black;
+}
+#proposition tr td.indice div.indiceCellWhite
+{
+	background-color :white;
+}
+
+#solution, #cachesolution 
+{
+	top : 0px;
+	left : 65px;
+	position : absolute; 
+}
+#cachesolution 
+{
+	z-index:1;
+	background-color:white;
+	width:250px;
+	height:60px;
+}
+
+button {
+	border-radius:2em;
+	border:1px solid;
+	display:inline-block;
+	cursor:pointer;
+	weight:10px;
+	height: 20px;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.color1 {
+	background-color:#f24537;
+	border-color: #d02718;
+}
+.color2 {
+	background-color:#89c403;
+	border-color: #74b807;
+}
+.color3 {
+	background-color:#3d94f6;
+	border-color: #337fed;
+}
+.color4 {
+	background-color:#ffec64;
+	border-color: #ffaa22;
+}
+.color5 {
+	background-color:#ff5bb0;
+	border-color: #ee1eb5;
+}
+.color6 {
+	background-color:#c123de;
+	border-color: #a511c0;
+}
+.color7 {
+	background-color:#853e0a;
+	border-color: #4f1b03;
+}
+.color8 {
+	background-color:#fa7500;
+	border-color: #bd670b;
+}
+
+
+/*-----------------------------------------*/
+/* 		           FOOTER                  */
+/*-----------------------------------------*/
+footer
+{
+
+}
